@@ -1,1 +1,1 @@
-s
+Some mapreduce demo.
