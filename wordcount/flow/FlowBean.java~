@@ -11,6 +11,7 @@ import org.apache.hadoop.io.WritableComparable;
  * 在hadoop中，自定义的bean如果需要进行网络传输，必须实现hadoop的序列化框架，就是实现接口Writable
  * hadoop自带的序列化机制相比Serializable来说，传输的信息更加精简
  * 在hadoop项目的规划中，以后的序列化机制可能采用Avro框架（可以跨语言）
+ * @author duanhaitao@itcast.cn
  *
  */
 

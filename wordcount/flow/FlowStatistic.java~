@@ -16,6 +16,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 /**
  * 对流量日志进行按用户汇总统计
  * 如果要将结果按照手机号所属省份分文件输出，就要自定义一个partitioner，然后还要控制reduce task数量
+ * @author duanhaitao@itcast.cn
  *
  */
 public class FlowStatistic {
